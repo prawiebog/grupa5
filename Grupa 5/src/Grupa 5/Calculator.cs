@@ -7,7 +7,7 @@ namespace Grupa_5
 {
     public class Calculator
     {
-        /* Bardzo fajna funkcja dzieląca */
+        /* Bardzo   fajna funkcja dzieląca  */
         public float dzielenie(float a, float b)
         {
             if (b == 0)  {

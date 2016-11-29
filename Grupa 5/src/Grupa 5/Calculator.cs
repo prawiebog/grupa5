@@ -7,6 +7,9 @@ namespace Grupa_5
 {
     public class Calculator
     {
-        /* */
+        public int multi(int a, int b)
+        {
+            return a*b;
+        }
     }
 }

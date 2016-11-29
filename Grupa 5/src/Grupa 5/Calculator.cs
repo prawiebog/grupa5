@@ -7,5 +7,10 @@ namespace Grupa_5
 {
     public class Calculator
     {
+        public int add()
+        {
+            return 0;
+        }
+
     }
 }

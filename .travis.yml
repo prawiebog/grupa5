@@ -1,0 +1,7 @@
+language: csharp
+solution: "./Grupa 5/Grupa 5.sln"
+install:
+- sudo apt-get install -y gtk-sharp2
+- nuget restore "./Grupa 5/Grupa 5.sln"
+script:
+- xbuild /p:Configuration=Release "./Grupa 5/Grupa 5.sln"

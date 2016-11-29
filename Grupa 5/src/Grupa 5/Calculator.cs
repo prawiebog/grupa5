@@ -7,5 +7,6 @@ namespace Grupa_5
 {
     public class Calculator
     {
+        int nothing = 0;
     }
 }

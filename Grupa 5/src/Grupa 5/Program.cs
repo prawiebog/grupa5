@@ -9,6 +9,7 @@ namespace Grupa_5
     {
         public static void Main(string[] args)
         {
+            int i = 0;
         }
     }
 }

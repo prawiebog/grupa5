@@ -431,16 +431,16 @@
           "ref/dotnet/System.IO.dll": {}
         }
       },
-      "System.IO.FileSystem.Primitives/4.0.1-beta-23516": {
+      "System.IO.FileSystem.Primitives/4.0.0": {
         "type": "package",
         "dependencies": {
           "System.Runtime": "4.0.20"
         },
         "compile": {
-          "ref/dotnet5.1/System.IO.FileSystem.Primitives.dll": {}
+          "ref/dotnet/System.IO.FileSystem.Primitives.dll": {}
         },
         "runtime": {
-          "lib/dotnet5.4/System.IO.FileSystem.Primitives.dll": {}
+          "lib/dotnet/System.IO.FileSystem.Primitives.dll": {}
         }
       },
       "System.Linq/4.0.1-beta-23516": {
@@ -608,26 +608,26 @@
           "lib/DNXCore50/System.Runtime.InteropServices.dll": {}
         }
       },
-      "System.Text.Encoding/4.0.11-beta-23516": {
+      "System.Text.Encoding/4.0.10": {
         "type": "package",
         "dependencies": {
           "System.Runtime": "4.0.0"
         },
         "compile": {
-          "ref/dotnet5.4/System.Text.Encoding.dll": {}
+          "ref/dotnet/System.Text.Encoding.dll": {}
         },
         "runtime": {
           "lib/DNXCore50/System.Text.Encoding.dll": {}
         }
       },
-      "System.Text.Encoding.Extensions/4.0.11-beta-23516": {
+      "System.Text.Encoding.Extensions/4.0.10": {
         "type": "package",
         "dependencies": {
           "System.Runtime": "4.0.0",
           "System.Text.Encoding": "4.0.10"
         },
         "compile": {
-          "ref/dotnet5.4/System.Text.Encoding.Extensions.dll": {}
+          "ref/dotnet/System.Text.Encoding.Extensions.dll": {}
         },
         "runtime": {
           "lib/DNXCore50/System.Text.Encoding.Extensions.dll": {}
@@ -643,13 +643,13 @@
           "ref/dotnet5.4/System.Threading.dll": {}
         }
       },
-      "System.Threading.Tasks/4.0.11-beta-23516": {
+      "System.Threading.Tasks/4.0.10": {
         "type": "package",
         "dependencies": {
           "System.Runtime": "4.0.0"
         },
         "compile": {
-          "ref/dotnet5.4/System.Threading.Tasks.dll": {}
+          "ref/dotnet/System.Threading.Tasks.dll": {}
         },
         "runtime": {
           "lib/DNXCore50/System.Threading.Tasks.dll": {}
@@ -791,16 +791,16 @@
           "ref/dotnet/System.IO.dll": {}
         }
       },
-      "System.IO.FileSystem.Primitives/4.0.1-beta-23516": {
+      "System.IO.FileSystem.Primitives/4.0.0": {
         "type": "package",
         "dependencies": {
           "System.Runtime": "4.0.20"
         },
         "compile": {
-          "ref/dotnet5.1/System.IO.FileSystem.Primitives.dll": {}
+          "ref/dotnet/System.IO.FileSystem.Primitives.dll": {}
         },
         "runtime": {
-          "lib/dotnet5.4/System.IO.FileSystem.Primitives.dll": {}
+          "lib/dotnet/System.IO.FileSystem.Primitives.dll": {}
         }
       },
       "System.Linq/4.0.1-beta-23516": {
@@ -968,26 +968,26 @@
           "lib/DNXCore50/System.Runtime.InteropServices.dll": {}
         }
       },
-      "System.Text.Encoding/4.0.11-beta-23516": {
+      "System.Text.Encoding/4.0.10": {
         "type": "package",
         "dependencies": {
           "System.Runtime": "4.0.0"
         },
         "compile": {
-          "ref/dotnet5.4/System.Text.Encoding.dll": {}
+          "ref/dotnet/System.Text.Encoding.dll": {}
         },
         "runtime": {
           "lib/DNXCore50/System.Text.Encoding.dll": {}
         }
       },
-      "System.Text.Encoding.Extensions/4.0.11-beta-23516": {
+      "System.Text.Encoding.Extensions/4.0.10": {
         "type": "package",
         "dependencies": {
           "System.Runtime": "4.0.0",
           "System.Text.Encoding": "4.0.10"
         },
         "compile": {
-          "ref/dotnet5.4/System.Text.Encoding.Extensions.dll": {}
+          "ref/dotnet/System.Text.Encoding.Extensions.dll": {}
         },
         "runtime": {
           "lib/DNXCore50/System.Text.Encoding.Extensions.dll": {}
@@ -1003,13 +1003,13 @@
           "ref/dotnet5.4/System.Threading.dll": {}
         }
       },
-      "System.Threading.Tasks/4.0.11-beta-23516": {
+      "System.Threading.Tasks/4.0.10": {
         "type": "package",
         "dependencies": {
           "System.Runtime": "4.0.0"
         },
         "compile": {
-          "ref/dotnet5.4/System.Threading.Tasks.dll": {}
+          "ref/dotnet/System.Threading.Tasks.dll": {}
         },
         "runtime": {
           "lib/DNXCore50/System.Threading.Tasks.dll": {}
@@ -1366,35 +1366,35 @@
         "System.IO.nuspec"
       ]
     },
-    "System.IO.FileSystem.Primitives/4.0.1-beta-23516": {
+    "System.IO.FileSystem.Primitives/4.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "vaT0Coz/K9ZnuxyF50D541F9N7LmHCZJZ1RgFmBAB2T4A8U+WLrtdBrmA6jf2hl/aS7+RInYOfJ1cpDFErTbfQ==",
+      "sha512": "7pJUvYi/Yq3A5nagqCCiOw3+aJp3xXc/Cjr8dnJDnER3/6kX3LEencfqmXUcPl9+7OvRNyPMNhqsLAcMK6K/KA==",
       "files": [
-        "lib/dotnet5.4/System.IO.FileSystem.Primitives.dll",
+        "lib/dotnet/System.IO.FileSystem.Primitives.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/net46/System.IO.FileSystem.Primitives.dll",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
-        "ref/dotnet5.1/de/System.IO.FileSystem.Primitives.xml",
-        "ref/dotnet5.1/es/System.IO.FileSystem.Primitives.xml",
-        "ref/dotnet5.1/fr/System.IO.FileSystem.Primitives.xml",
-        "ref/dotnet5.1/it/System.IO.FileSystem.Primitives.xml",
-        "ref/dotnet5.1/ja/System.IO.FileSystem.Primitives.xml",
-        "ref/dotnet5.1/ko/System.IO.FileSystem.Primitives.xml",
-        "ref/dotnet5.1/ru/System.IO.FileSystem.Primitives.xml",
-        "ref/dotnet5.1/System.IO.FileSystem.Primitives.dll",
-        "ref/dotnet5.1/System.IO.FileSystem.Primitives.xml",
-        "ref/dotnet5.1/zh-hans/System.IO.FileSystem.Primitives.xml",
-        "ref/dotnet5.1/zh-hant/System.IO.FileSystem.Primitives.xml",
+        "ref/dotnet/de/System.IO.FileSystem.Primitives.xml",
+        "ref/dotnet/es/System.IO.FileSystem.Primitives.xml",
+        "ref/dotnet/fr/System.IO.FileSystem.Primitives.xml",
+        "ref/dotnet/it/System.IO.FileSystem.Primitives.xml",
+        "ref/dotnet/ja/System.IO.FileSystem.Primitives.xml",
+        "ref/dotnet/ko/System.IO.FileSystem.Primitives.xml",
+        "ref/dotnet/ru/System.IO.FileSystem.Primitives.xml",
+        "ref/dotnet/System.IO.FileSystem.Primitives.dll",
+        "ref/dotnet/System.IO.FileSystem.Primitives.xml",
+        "ref/dotnet/zh-hans/System.IO.FileSystem.Primitives.xml",
+        "ref/dotnet/zh-hant/System.IO.FileSystem.Primitives.xml",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
         "ref/net46/System.IO.FileSystem.Primitives.dll",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "System.IO.FileSystem.Primitives.4.0.1-beta-23516.nupkg",
-        "System.IO.FileSystem.Primitives.4.0.1-beta-23516.nupkg.sha512",
+        "System.IO.FileSystem.Primitives.4.0.0.nupkg",
+        "System.IO.FileSystem.Primitives.4.0.0.nupkg.sha512",
         "System.IO.FileSystem.Primitives.nuspec"
       ]
     },
@@ -1924,127 +1924,69 @@
         "System.Text.Encoding.nuspec"
       ]
     },
-    "System.Text.Encoding/4.0.11-beta-23516": {
+    "System.Text.Encoding/4.0.10": {
       "type": "package",
-      "serviceable": true,
-      "sha512": "gk4da/Y3VReZpIeQ3UDTCknbkO/FuYKOJtP+5+Vtc07mTcPHvhgbZLXEGTTneP6yWPDWTTh20nZZMF/19YsRtA==",
+      "sha512": "fNlSFgy4OuDlJrP9SFFxMlaLazq6ipv15sU5TiEgg9UCVnA/OgoVUfymFp4AOk1jOkW5SVxWbeeIUptcM+m/Vw==",
       "files": [
         "lib/DNXCore50/System.Text.Encoding.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
-        "lib/net45/_._",
+        "lib/net46/_._",
         "lib/netcore50/System.Text.Encoding.dll",
-        "lib/win8/_._",
-        "lib/wp80/_._",
-        "lib/wpa81/_._",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
-        "ref/dotnet5.1/de/System.Text.Encoding.xml",
-        "ref/dotnet5.1/es/System.Text.Encoding.xml",
-        "ref/dotnet5.1/fr/System.Text.Encoding.xml",
-        "ref/dotnet5.1/it/System.Text.Encoding.xml",
-        "ref/dotnet5.1/ja/System.Text.Encoding.xml",
-        "ref/dotnet5.1/ko/System.Text.Encoding.xml",
-        "ref/dotnet5.1/ru/System.Text.Encoding.xml",
-        "ref/dotnet5.1/System.Text.Encoding.dll",
-        "ref/dotnet5.1/System.Text.Encoding.xml",
-        "ref/dotnet5.1/zh-hans/System.Text.Encoding.xml",
-        "ref/dotnet5.1/zh-hant/System.Text.Encoding.xml",
-        "ref/dotnet5.4/de/System.Text.Encoding.xml",
-        "ref/dotnet5.4/es/System.Text.Encoding.xml",
-        "ref/dotnet5.4/fr/System.Text.Encoding.xml",
-        "ref/dotnet5.4/it/System.Text.Encoding.xml",
-        "ref/dotnet5.4/ja/System.Text.Encoding.xml",
-        "ref/dotnet5.4/ko/System.Text.Encoding.xml",
-        "ref/dotnet5.4/ru/System.Text.Encoding.xml",
-        "ref/dotnet5.4/System.Text.Encoding.dll",
-        "ref/dotnet5.4/System.Text.Encoding.xml",
-        "ref/dotnet5.4/zh-hans/System.Text.Encoding.xml",
-        "ref/dotnet5.4/zh-hant/System.Text.Encoding.xml",
+        "ref/dotnet/de/System.Text.Encoding.xml",
+        "ref/dotnet/es/System.Text.Encoding.xml",
+        "ref/dotnet/fr/System.Text.Encoding.xml",
+        "ref/dotnet/it/System.Text.Encoding.xml",
+        "ref/dotnet/ja/System.Text.Encoding.xml",
+        "ref/dotnet/ko/System.Text.Encoding.xml",
+        "ref/dotnet/ru/System.Text.Encoding.xml",
+        "ref/dotnet/System.Text.Encoding.dll",
+        "ref/dotnet/System.Text.Encoding.xml",
+        "ref/dotnet/zh-hans/System.Text.Encoding.xml",
+        "ref/dotnet/zh-hant/System.Text.Encoding.xml",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
-        "ref/net45/_._",
-        "ref/netcore50/de/System.Text.Encoding.xml",
-        "ref/netcore50/es/System.Text.Encoding.xml",
-        "ref/netcore50/fr/System.Text.Encoding.xml",
-        "ref/netcore50/it/System.Text.Encoding.xml",
-        "ref/netcore50/ja/System.Text.Encoding.xml",
-        "ref/netcore50/ko/System.Text.Encoding.xml",
-        "ref/netcore50/ru/System.Text.Encoding.xml",
-        "ref/netcore50/System.Text.Encoding.dll",
-        "ref/netcore50/System.Text.Encoding.xml",
-        "ref/netcore50/zh-hans/System.Text.Encoding.xml",
-        "ref/netcore50/zh-hant/System.Text.Encoding.xml",
-        "ref/win8/_._",
-        "ref/wp80/_._",
-        "ref/wpa81/_._",
+        "ref/net46/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "runtimes/win8-aot/lib/netcore50/System.Text.Encoding.dll",
-        "System.Text.Encoding.4.0.11-beta-23516.nupkg",
-        "System.Text.Encoding.4.0.11-beta-23516.nupkg.sha512",
+        "System.Text.Encoding.4.0.10.nupkg",
+        "System.Text.Encoding.4.0.10.nupkg.sha512",
         "System.Text.Encoding.nuspec"
       ]
     },
-    "System.Text.Encoding.Extensions/4.0.11-beta-23516": {
+    "System.Text.Encoding.Extensions/4.0.10": {
       "type": "package",
-      "serviceable": true,
-      "sha512": "K7tNpcWcJ3ck2GRumeQrwOY6c4NZzi2XNMWhRBzZVbj4Kq1gzrXeu76AlkOgv8aUBn5UyLeshBOhBgFhAgFmMw==",
+      "sha512": "TZvlwXMxKo3bSRIcsWZLCIzIhLbvlz+mGeKYRZv/zUiSoQzGOwkYeBu6hOw2XPQgKqT0F4Rv8zqKdvmp2fWKYg==",
       "files": [
         "lib/DNXCore50/System.Text.Encoding.Extensions.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
-        "lib/net45/_._",
+        "lib/net46/_._",
         "lib/netcore50/System.Text.Encoding.Extensions.dll",
-        "lib/win8/_._",
-        "lib/wp80/_._",
-        "lib/wpa81/_._",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
-        "ref/dotnet5.1/de/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.1/es/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.1/fr/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.1/it/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.1/ja/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.1/ko/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.1/ru/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.1/System.Text.Encoding.Extensions.dll",
-        "ref/dotnet5.1/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.1/zh-hans/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.1/zh-hant/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.4/de/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.4/es/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.4/fr/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.4/it/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.4/ja/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.4/ko/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.4/ru/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.4/System.Text.Encoding.Extensions.dll",
-        "ref/dotnet5.4/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.4/zh-hans/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.4/zh-hant/System.Text.Encoding.Extensions.xml",
+        "ref/dotnet/de/System.Text.Encoding.Extensions.xml",
+        "ref/dotnet/es/System.Text.Encoding.Extensions.xml",
+        "ref/dotnet/fr/System.Text.Encoding.Extensions.xml",
+        "ref/dotnet/it/System.Text.Encoding.Extensions.xml",
+        "ref/dotnet/ja/System.Text.Encoding.Extensions.xml",
+        "ref/dotnet/ko/System.Text.Encoding.Extensions.xml",
+        "ref/dotnet/ru/System.Text.Encoding.Extensions.xml",
+        "ref/dotnet/System.Text.Encoding.Extensions.dll",
+        "ref/dotnet/System.Text.Encoding.Extensions.xml",
+        "ref/dotnet/zh-hans/System.Text.Encoding.Extensions.xml",
+        "ref/dotnet/zh-hant/System.Text.Encoding.Extensions.xml",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
-        "ref/net45/_._",
-        "ref/netcore50/de/System.Text.Encoding.Extensions.xml",
-        "ref/netcore50/es/System.Text.Encoding.Extensions.xml",
-        "ref/netcore50/fr/System.Text.Encoding.Extensions.xml",
-        "ref/netcore50/it/System.Text.Encoding.Extensions.xml",
-        "ref/netcore50/ja/System.Text.Encoding.Extensions.xml",
-        "ref/netcore50/ko/System.Text.Encoding.Extensions.xml",
-        "ref/netcore50/ru/System.Text.Encoding.Extensions.xml",
-        "ref/netcore50/System.Text.Encoding.Extensions.dll",
-        "ref/netcore50/System.Text.Encoding.Extensions.xml",
-        "ref/netcore50/zh-hans/System.Text.Encoding.Extensions.xml",
-        "ref/netcore50/zh-hant/System.Text.Encoding.Extensions.xml",
-        "ref/win8/_._",
-        "ref/wp80/_._",
-        "ref/wpa81/_._",
+        "ref/net46/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "runtimes/win8-aot/lib/netcore50/System.Text.Encoding.Extensions.dll",
-        "System.Text.Encoding.Extensions.4.0.11-beta-23516.nupkg",
-        "System.Text.Encoding.Extensions.4.0.11-beta-23516.nupkg.sha512",
+        "System.Text.Encoding.Extensions.4.0.10.nupkg",
+        "System.Text.Encoding.Extensions.4.0.10.nupkg.sha512",
         "System.Text.Encoding.Extensions.nuspec"
       ]
     },
@@ -2156,65 +2098,37 @@
         "System.Threading.Tasks.nuspec"
       ]
     },
-    "System.Threading.Tasks/4.0.11-beta-23516": {
+    "System.Threading.Tasks/4.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "xjN0l+GsHEdV3G2lKF7DnH7kEM2OXoWq56jcvByNaiirrs1om5RyI6gwX7F4rTbkf8eZk1pjg01l4CI3nLyTKg==",
+      "sha512": "NOwJGDfk79jR0bnzosbXLVD/PdI8KzBeESoa3CofEM5v9R5EBfcI0Jyf18stx+0IYV9okmDIDxVtxq9TbnR9bQ==",
       "files": [
         "lib/DNXCore50/System.Threading.Tasks.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
-        "lib/net45/_._",
+        "lib/net46/_._",
         "lib/netcore50/System.Threading.Tasks.dll",
-        "lib/win8/_._",
-        "lib/wp80/_._",
-        "lib/wpa81/_._",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
-        "ref/dotnet5.1/de/System.Threading.Tasks.xml",
-        "ref/dotnet5.1/es/System.Threading.Tasks.xml",
-        "ref/dotnet5.1/fr/System.Threading.Tasks.xml",
-        "ref/dotnet5.1/it/System.Threading.Tasks.xml",
-        "ref/dotnet5.1/ja/System.Threading.Tasks.xml",
-        "ref/dotnet5.1/ko/System.Threading.Tasks.xml",
-        "ref/dotnet5.1/ru/System.Threading.Tasks.xml",
-        "ref/dotnet5.1/System.Threading.Tasks.dll",
-        "ref/dotnet5.1/System.Threading.Tasks.xml",
-        "ref/dotnet5.1/zh-hans/System.Threading.Tasks.xml",
-        "ref/dotnet5.1/zh-hant/System.Threading.Tasks.xml",
-        "ref/dotnet5.4/de/System.Threading.Tasks.xml",
-        "ref/dotnet5.4/es/System.Threading.Tasks.xml",
-        "ref/dotnet5.4/fr/System.Threading.Tasks.xml",
-        "ref/dotnet5.4/it/System.Threading.Tasks.xml",
-        "ref/dotnet5.4/ja/System.Threading.Tasks.xml",
-        "ref/dotnet5.4/ko/System.Threading.Tasks.xml",
-        "ref/dotnet5.4/ru/System.Threading.Tasks.xml",
-        "ref/dotnet5.4/System.Threading.Tasks.dll",
-        "ref/dotnet5.4/System.Threading.Tasks.xml",
-        "ref/dotnet5.4/zh-hans/System.Threading.Tasks.xml",
-        "ref/dotnet5.4/zh-hant/System.Threading.Tasks.xml",
+        "ref/dotnet/de/System.Threading.Tasks.xml",
+        "ref/dotnet/es/System.Threading.Tasks.xml",
+        "ref/dotnet/fr/System.Threading.Tasks.xml",
+        "ref/dotnet/it/System.Threading.Tasks.xml",
+        "ref/dotnet/ja/System.Threading.Tasks.xml",
+        "ref/dotnet/ko/System.Threading.Tasks.xml",
+        "ref/dotnet/ru/System.Threading.Tasks.xml",
+        "ref/dotnet/System.Threading.Tasks.dll",
+        "ref/dotnet/System.Threading.Tasks.xml",
+        "ref/dotnet/zh-hans/System.Threading.Tasks.xml",
+        "ref/dotnet/zh-hant/System.Threading.Tasks.xml",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
-        "ref/net45/_._",
-        "ref/netcore50/de/System.Threading.Tasks.xml",
-        "ref/netcore50/es/System.Threading.Tasks.xml",
-        "ref/netcore50/fr/System.Threading.Tasks.xml",
-        "ref/netcore50/it/System.Threading.Tasks.xml",
-        "ref/netcore50/ja/System.Threading.Tasks.xml",
-        "ref/netcore50/ko/System.Threading.Tasks.xml",
-        "ref/netcore50/ru/System.Threading.Tasks.xml",
-        "ref/netcore50/System.Threading.Tasks.dll",
-        "ref/netcore50/System.Threading.Tasks.xml",
-        "ref/netcore50/zh-hans/System.Threading.Tasks.xml",
-        "ref/netcore50/zh-hant/System.Threading.Tasks.xml",
-        "ref/win8/_._",
-        "ref/wp80/_._",
-        "ref/wpa81/_._",
+        "ref/net46/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "runtimes/win8-aot/lib/netcore50/System.Threading.Tasks.dll",
-        "System.Threading.Tasks.4.0.11-beta-23516.nupkg",
-        "System.Threading.Tasks.4.0.11-beta-23516.nupkg.sha512",
+        "System.Threading.Tasks.4.0.10.nupkg",
+        "System.Threading.Tasks.4.0.10.nupkg.sha512",
         "System.Threading.Tasks.nuspec"
       ]
     }

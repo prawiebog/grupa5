@@ -8,7 +8,7 @@ namespace Grupa_5
     public class Calculator
     {
 
-        public int substract(int a, int b) //substract
+        public int substract(int a, int b) //substrac
         {
             return a - b;
         }

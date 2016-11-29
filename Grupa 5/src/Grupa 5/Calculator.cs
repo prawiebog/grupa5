@@ -7,9 +7,9 @@ namespace Grupa_5
 {
     public class Calculator
     {
-        public int add()
+        public int Add(int a, int b)
         {
-            return 0;
+            return a + b;
         }
 
     }

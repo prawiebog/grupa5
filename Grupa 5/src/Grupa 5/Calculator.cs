@@ -7,10 +7,10 @@ namespace Grupa_5
 {
     public class Calculator
     {
-        public int add()
-        {
-            return 0;
-        }
 
+        public int substract(int a, int b) //substrac
+        {
+            return a - b;
+        }
     }
 }
